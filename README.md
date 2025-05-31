@@ -21,7 +21,7 @@ A simple web app to generate ID card data using a form and store it in a local M
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/id-card-generator.git
+git clone https://github.com/CHINNIRATHOD/id-card-generator.git
 cd id-card-generator
 Setup backend
 
