@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema({
   emergencyContact: String,
   email: String,
   company: String,
+  photo: String // ✅ Added photo field to store uploaded image filename
 });
 
 module.exports = mongoose.model("User", userSchema);

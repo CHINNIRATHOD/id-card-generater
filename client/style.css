@@ -65,3 +65,37 @@ button {
 button:hover {
   background-color: #ff3b2f;
 }
+/* ID Card Preview */
+#idCardPreview {
+  margin-top: 30px;
+  background: #ffffff22;
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+#idCardPreview img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+
+#idCardPreview h2 {
+  margin: 5px 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+#idCardPreview p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
